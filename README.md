@@ -13,8 +13,8 @@ Dataset and Code of CIP (Complementary-View Co-Interest Person Detection), accep
 ## Introduction
 
 
-<div align=center><img src="https://github.com/RuizeHan/CIP/blob/master/figs/example.png" width="450" height="500" alt="example"/><br/>
-<div align=left>
+<div align=center><img src="https://github.com/RuizeHan/CIP/blob/master/figs/example.png" width="450" height="400" alt="example"/><br/>
+<div align= justify>
 Fast and accurate identification of the co-interest persons, who draw joint interest of the surrounding people, plays an important role in social scene understanding and surveillance. Previous study mainly focuses on detecting co-interest persons from a single-view video. In this paper, we study a much more realistic and challeng-
 ing problem, namely co-interest person (CIP) detection from multiple temporally-synchronized videos taken by the complementary and time-varying views. Specifically, we use a top-view camera, mounted on a flying drone at a high altitude to obtain a global view of the whole scene and all subjects on the ground, and multiple
 horizontal-view cameras, worn by selected subjects, to obtain a local view of their nearby persons and environment details. We present an efficient top- and horizontal-view data fusion strategy to mapmultiplehorizontalviewsintotheglobaltopview.We then propose a spatial-temporal CIP potential energy function that jointly considers both intra-frame confidence and inter-frame consistency, thus leading to an effective Conditional Random Field (CRF) formulation. We also construct a complementary-view video dataset, which provides a benchmark for the study of multi-view co-interest person detection. Extensive experiments validate the effectiveness and superiority of the proposed method.
