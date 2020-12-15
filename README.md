@@ -12,11 +12,17 @@ Dataset and Code of CIP (Complementary-View Co-Interest Person Detection), accep
 
 ## Introduction
 
-![example](https://github.com/HanRuize/CVMHT/blob/master/figs/example.jpg)
+![example](https://github.com/RuizeHan/CIP/blob/master/figs/example.jpg)
 
 Fast and accurate identification of the co-interest persons, who draw joint interest of the surrounding people, plays an important role in social scene understanding and surveillance. Previous study mainly focuses on detecting co-interest persons from a single-view video. In this paper, we study a much more realistic and challeng-
 ing problem, namely co-interest person (CIP) detection from multiple temporally-synchronized videos taken by the complementary and time-varying views. Specifically, we use a top-view camera, mounted on a flying drone at a high altitude to obtain a global view of the whole scene and all subjects on the ground, and multiple
 horizontal-view cameras, worn by selected subjects, to obtain a local view of their nearby persons and environment details. We present an efficient top- and horizontal-view data fusion strategy to mapmultiplehorizontalviewsintotheglobaltopview.We then propose a spatial-temporal CIP potential energy function that jointly considers both intra-frame confidence and inter-frame consistency, thus leading to an effective Conditional Random Field (CRF) formulation. We also construct a complementary-view video dataset, which provides a benchmark for the study of multi-view co-interest person detection. Extensive experiments validate the effectiveness and superiority of the proposed method.
+
+We show the CIP detection results on sample frames from the top-view and three horizontal-view videos in the following figure. Red and green boxes indicate the detected CIP and the
+ground truth, respectively. Frames with a solid blue star on the top-left corner indicate that no CIP is detected by our algorithm, e.g., they are drawn from the CIP’s egocentric video or the CIP is occluded in these frames. As shown in the figure, the proposed algorithm can detect CIP even if the CIP shows similar appearance and motion characteristics with other people. As shown in the first row of Figure 6, the CIP is fully occluded by other subjects in ‘Horizontal View 2’, and the proposed method can handle it and detect the CIP in the other two horizontal views. The second row shows a case where the CIP appears in all three horizontal-view videos, and the proposed method can obtain its appearance from different views. Note that, our method can identify the CIP with serious partial occlusion, as shown in the third row of ‘Horizontal View 3’. It is because the other two horizontal views can well observe the CIP and the top view provides a good picture of all the subjects. In the last row, the camera wearer for ‘Horizontal View 1’ is the CIP, who is also out of the FOV of ‘Horizontal View 3’ video.
+Moreover, almost all the subjects’ faces can not be seen in the FOV of ‘Horizontal View 2’. Even so, the proposed method successfully identifies the CIP in the top view and then backtracks him in the three horizontal views. Based on the above analysis, we can see that the proposed method can combine multiple horizontal views and a complementary top view for more comprehensive and accurate CIP detection.
+
+![example](https://github.com/RuizeHan/CIP/blob/master/figs/cap_case.jpg)
 
 Dataset: Link: Coming soon...
 
