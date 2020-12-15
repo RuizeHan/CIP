@@ -13,7 +13,7 @@ Dataset and Code of CIP (Complementary-View Co-Interest Person Detection), accep
 ## Introduction
 
 
-<div align=center><img src="https://github.com/RuizeHan/CIP/blob/master/figs/example.png" width="450" height="400" alt="example"/><br/>
+<div align=center><img src="https://github.com/RuizeHan/CIP/blob/master/figs/example.png" width="450" height="360" alt="example"/><br/>
 <div align= justify>
 Fast and accurate identification of the co-interest persons, who draw joint interest of the surrounding people, plays an important role in social scene understanding and surveillance. Previous study mainly focuses on detecting co-interest persons from a single-view video. In this paper, we study a much more realistic and challeng-
 ing problem, namely co-interest person (CIP) detection from multiple temporally-synchronized videos taken by the complementary and time-varying views. Specifically, we use a top-view camera, mounted on a flying drone at a high altitude to obtain a global view of the whole scene and all subjects on the ground, and multiple
@@ -27,4 +27,4 @@ Dataset: Link: Coming soon...
 
 To get the annotation, please contact the authors. The dataset is only used for academic research.
 
-Code: Mainly by Ruize Han (han_ruize@tju.edu.cn); Jiewen Zhao (zhaojw@tju.edu.cn), YiYang Gan(realgump@tju.edu.cn).
+Code: Mainly by Ruize Han (han_ruize@tju.edu.cn); Jiewen Zhao (zhaojw@tju.edu.cn), Yiyang Gan(realgump@tju.edu.cn).
