@@ -1,5 +1,5 @@
 # CIP
-Dataset and Code of CIP (Complementary-View Co-Interest Person Detection), accepted in ACM MM 2020.
+Dataset and Code of CIP (Complementary-View Co-Interest Person Detection), published in ACM MM 2020.
 
 ```
 @inproceedings{han2020cip,
