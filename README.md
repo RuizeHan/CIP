@@ -27,4 +27,6 @@ Dataset: Link: Coming soon...
 
 To get the annotation, please contact the authors. The dataset is only used for academic research.
 
-Code: Mainly by Ruize Han (han_ruize@tju.edu.cn); Jiewen Zhao (zhaojw@tju.edu.cn), Yiyang Gan(realgump@tju.edu.cn).
+Code: Mainly by Ruize Han (han_ruize@tju.edu.cn); Jiewen Zhao (zhaojw@tju.edu.cn);
+
+Yiyang Gan(realgump@tju.edu.cn).
