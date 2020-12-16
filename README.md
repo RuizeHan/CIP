@@ -23,7 +23,7 @@ We show the CIP detection results on sample frames from the top-view and three h
 
 ![example](https://github.com/RuizeHan/CIP/blob/master/figs/cap_case.jpg)
 
-Dataset: Link: 链接：https://pan.baidu.com/s/1BAM_MD1Lya5zf-O4OzJFnw  Password: CVIP 
+Dataset: Link: https://pan.baidu.com/s/1BAM_MD1Lya5zf-O4OzJFnw  Password: CVIP 
 
 To get the annotation, please contact the authors. The dataset is only used for academic research.
 
