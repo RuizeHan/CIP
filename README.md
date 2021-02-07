@@ -21,7 +21,7 @@ horizontal-view cameras, worn by selected subjects, to obtain a local view of th
 
 We show the CIP detection results on sample frames from the top-view and three horizontal-view videos in the following figure. Red and green boxes indicate the detected CIP and the ground truth, respectively. Frames with a solid blue star on the top-left corner indicate that no CIP is detected by our algorithm, e.g., they are drawn from the CIP’s egocentric video or the CIP is occluded in these frames. As shown in the figure, the proposed algorithm can detect CIP even if the CIP shows similar appearance and motion characteristics with other people. We can see that the proposed method can combine multiple horizontal views and a complementary top view for more comprehensive and accurate CIP detection.
 
-![example](https://github.com/RuizeHan/CIP/blob/master/figs/cap_case.jpg)
+![case](https://github.com/RuizeHan/CIP/blob/master/figs/cap_case.jpg)
 
 Dataset: Link: https://pan.baidu.com/s/1BAM_MD1Lya5zf-O4OzJFnw  Password: CVIP 
 
